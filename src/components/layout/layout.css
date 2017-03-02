@@ -1,0 +1,27 @@
+.Layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Layout-Header {
+    height: 40px;
+    background: #0011bb;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+}
+
+.Layout-Body {
+    display: flex;
+    flex: 1;
+}
+
+.Layout-Menu {
+    width: 200px;
+    background-color: #777;
+    display: flex;
+}
+
+.Layout-Main {
+    flex: 1;
+    display: flex;
+}
